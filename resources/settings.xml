@@ -1,0 +1,10 @@
+<settings>
+	<category label="Общие">
+		<setting type="sep" />
+		<setting label="Период обновления, минуты: " type="number" id="refresh_period" default="120" />
+		<setting type="sep" />
+		<setting label="Папка для файлов cо списком каналов и телепрограммой: " type="folder" id="files_folder" source="auto" option="writeable" default="" />
+		<setting type="sep" />
+		<setting label="Коррекция времени EPG, часы: " type="number" id="tvg_shift" default="0" />
+	</category>
+</settings>
